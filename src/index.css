@@ -22,4 +22,8 @@ html {
 
 body {
   background-color: var(--color-darkest-blue);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Overpass", sans-serif;
 }

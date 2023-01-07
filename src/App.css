@@ -1,0 +1,44 @@
+.App {
+  width: 350px;
+  height: 400px;
+  background-color: var(--color-dark-blue);
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 24px;
+}
+
+.star-wrapper {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  background-color: var(--color-medium-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--color-white);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+p {
+  color: var(--color-light-gray);
+  font-weight: 400;
+  font-size: calc(15 / 16 * 1rem);
+}
+
+.submit {
+  text-transform: uppercase;
+  padding: 16px;
+  border: none;
+  border-radius: 32px;
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.25ch;
+}

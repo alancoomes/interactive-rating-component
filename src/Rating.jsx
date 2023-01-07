@@ -3,7 +3,7 @@ import React from "react";
 const Rating = () => {
   return (
     <>
-      <div className="icon-wrapper">
+      <div className="star-wrapper">
         <img src="/images/icon-star.svg" alt="" />
       </div>
       <h1>How did we do?</h1>
@@ -20,7 +20,7 @@ const Rating = () => {
         <button>5</button>
       </div>
 
-      <button>Submit</button>
+      <button className="submit">Submit</button>
     </>
   );
 };
