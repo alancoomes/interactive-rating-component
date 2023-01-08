@@ -1,8 +1,9 @@
 import React from "react";
+import "./Rating.css";
 
 const Rating = () => {
   return (
-    <>
+    <div className="rating-wrapper">
       <div className="star-wrapper">
         <img src="/images/icon-star.svg" alt="" />
       </div>
@@ -21,7 +22,7 @@ const Rating = () => {
       </div>
 
       <button className="submit">Submit</button>
-    </>
+    </div>
   );
 };
 

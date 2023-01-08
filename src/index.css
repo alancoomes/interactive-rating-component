@@ -12,12 +12,13 @@ html {
 }
 
 :root {
-  --color-primary: hsl(25deg, 97%, 53%);
-  --color-white: hsl(0deg, 0%, 100%);
-  --color-light-gray: hsl(217deg, 12%, 63%);
-  --color-medium-gray: hsl(216deg, 12%, 54%);
-  --color-dark-blue: hsl(213deg, 19%, 18%);
-  --color-darkest-blue: hsl(216deg, 12%, 8%);
+  --color-primary: hsl(25deg 97% 53%);
+  --color-white: hsl(0deg 0% 100%);
+  --color-light-gray: hsl(217deg 12% 63%);
+  --color-medium-gray: hsl(216deg 12% 54%);
+  --color-gray-faded: hsl(216deg 12% 54% / 0.15);
+  --color-dark-blue: hsl(213deg 19% 18%);
+  --color-darkest-blue: hsl(216deg 12% 8%);
 }
 
 body {
