@@ -10,7 +10,7 @@
   padding: 24px;
 }
 
-h1 {
+h1.thankyou-header {
   color: var(--color-white);
   font-weight: 700;
   font-size: 1.5rem;
@@ -18,7 +18,7 @@ h1 {
   margin-bottom: -18px;
 }
 
-p {
+p.thankyou-para {
   margin: 0;
   color: var(--color-light-gray);
   font-weight: 400;
@@ -37,5 +37,7 @@ p {
 @media (min-width: 450px) {
   .thankyou-wrapper {
     width: 400px;
+    padding: 32px;
+    border-radius: 32px;
   }
 }

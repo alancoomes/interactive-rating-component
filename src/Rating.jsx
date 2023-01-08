@@ -1,7 +1,7 @@
 import React from "react";
 import "./Rating.css";
 
-const Rating = () => {
+const Rating = ({ onRating, onSubmitRating }) => {
   return (
     <div className="rating-wrapper">
       <div className="star-wrapper">
@@ -14,14 +14,16 @@ const Rating = () => {
       </p>
 
       <div className="rating-list">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
+        <button onClick={() => onRating(1)}>1</button>
+        <button onClick={() => onRating(2)}>2</button>
+        <button onClick={() => onRating(3)}>3</button>
+        <button onClick={() => onRating(4)}>4</button>
+        <button onClick={() => onRating(5)}>5</button>
       </div>
 
-      <button className="submit">Submit</button>
+      <button onClick={() => onSubmitRating(true)} className="submit">
+        Submit
+      </button>
     </div>
   );
 };

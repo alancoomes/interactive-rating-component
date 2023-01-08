@@ -1,9 +1,7 @@
 import React from "react";
 import "./ThankYou.css";
 
-const ThankYou = () => {
-  const rating = 4;
-
+const ThankYou = ({ rating }) => {
   return (
     <div className="thankyou-wrapper">
       <div className="icon-wrapper">
@@ -11,9 +9,9 @@ const ThankYou = () => {
       </div>
       <div className="rating-display">You selected {rating} out of 5</div>
 
-      <h1>Thank you!</h1>
+      <h1 className="thankyou-header">Thank you!</h1>
 
-      <p>
+      <p className="thankyou-para">
         We appreciate you taking the time to give a rating. If you ever need
         more support, don’t hesitate to get in touch!
       </p>
