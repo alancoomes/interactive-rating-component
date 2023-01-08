@@ -33,3 +33,9 @@ p {
   border-radius: 16px;
   color: var(--color-primary);
 }
+
+@media (min-width: 450px) {
+  .thankyou-wrapper {
+    width: 400px;
+  }
+}

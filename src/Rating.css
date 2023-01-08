@@ -55,6 +55,7 @@ p {
   font-weight: 400;
   font-size: calc(15 / 16 * 1rem);
   line-height: 1.5;
+  width: 97%;
 }
 
 .submit {
@@ -80,4 +81,10 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media (min-width: 450px) {
+  .rating-wrapper {
+    width: 400px;
+  }
 }
