@@ -5,7 +5,7 @@ const ThankYou = ({ rating }) => {
   return (
     <div className="thankyou-wrapper">
       <div className="icon-wrapper">
-        <img src="/images/illustration-thank-you.svg" alt="" />
+        <img src="../images/illustration-thank-you.svg" alt="" />
       </div>
       <div className="rating-display">You selected {rating} out of 5</div>
 

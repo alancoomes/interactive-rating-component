@@ -5,7 +5,7 @@ const Rating = ({ onRating, onSubmitRating }) => {
   return (
     <div className="rating-wrapper">
       <div className="star-wrapper">
-        <img src="/images/icon-star.svg" alt="" />
+        <img src="../images/icon-star.svg" alt="" />
       </div>
       <h1>How did we do?</h1>
       <p>
